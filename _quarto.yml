@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs # Output directory for the rendered website
+  
+date: now
 
 website:
   title: "Behavioral Health Surveillance System (BHSS) Development"
@@ -25,7 +27,7 @@ website:
         href: https://github.com/nfparsons/behavioral-health-surveillance-system-wip/ # Replace with your GitHub repo URL if applicable
   page-footer:
     left: "Developed by Community Epidemiological Services, Multnomah County Public Health"
-    right: "Last updated: {{< modified >}}"
+    right: "Last updated: {{< meta date >}}"
 
 format:
   html:
