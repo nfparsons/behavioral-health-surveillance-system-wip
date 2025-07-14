@@ -22,10 +22,10 @@ website:
         text: "Interactive Tools"
     right:
       - icon: github
-        href: https://github.com/ # Replace with your GitHub repo URL if applicable
+        href: https://github.com/nfparsons/behavioral-health-surveillance-system-wip/ # Replace with your GitHub repo URL if applicable
   page-footer:
     left: "Developed by Community Epidemiological Services, Multnomah County Public Health"
-    right: "Last updated: {{< meta date >}}"
+    right: "Last updated: {{< modified >}}"
 
 format:
   html:
