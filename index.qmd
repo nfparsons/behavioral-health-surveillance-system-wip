@@ -1,6 +1,7 @@
 ---
 title: "Welcome to the BHSS Development Hub"
 format: html
+modified: 'r Sys.Date()'
 ---
 
 ## Overview
