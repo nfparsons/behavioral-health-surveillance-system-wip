@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: docs # Output directory for the rendered website
+
+website:
+  title: "Behavioral Health Surveillance System (BHSS) Development"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - text: "Development Phases"
+        menu:
+          - text: "Phase 1: Planning & Needs Assessment"
+            href: phases/phase1-planning.qmd
+          - text: "Phase 2: Data Acquisition & Management"
+            href: phases/phase2-data.qmd
+          - text: "Phase 3: Geospatial Analytics & Visualization"
+            href: phases/phase3-geospatial.qmd
+          - text: "Phase 4: Reporting & Evaluation"
+            href: phases/phase4-reporting.qmd
+      - href: interactive-tools.qmd
+        text: "Interactive Tools"
+    right:
+      - icon: github
+        href: https://github.com/ # Replace with your GitHub repo URL if applicable
+  page-footer:
+    left: "Developed by Community Epidemiological Services, Multnomah County Public Health"
+    right: "Last updated: {{< meta date >}}"
+
+format:
+  html:
+    theme: cosmo # A clean, modern theme
+    css: styles.css # For custom CSS if needed
+    toc: true # Table of contents for individual pages
+    code-fold: true # Allows code blocks to be folded/unfolded
+    code-tools: true # Adds copy button to code blocks
+

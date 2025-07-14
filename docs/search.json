@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to the BHSS Development Hub",
+    "section": "",
+    "text": "Welcome to the development hub for the county’s new Behavioral Health Surveillance System (BHSS). This system is designed to leverage robust data collection, advanced geospatial analytics, and dynamic visualization tools to monitor, understand, and address critical behavioral health challenges within our community."
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "Welcome to the BHSS Development Hub",
+    "section": "",
+    "text": "Welcome to the development hub for the county’s new Behavioral Health Surveillance System (BHSS). This system is designed to leverage robust data collection, advanced geospatial analytics, and dynamic visualization tools to monitor, understand, and address critical behavioral health challenges within our community."
+  },
+  {
+    "objectID": "index.html#project-vision",
+    "href": "index.html#project-vision",
+    "title": "Welcome to the BHSS Development Hub",
+    "section": "Project Vision",
+    "text": "Project Vision\nTo establish a sustainable, actionable, and geographically informed behavioral health surveillance system that:\n\nIdentifies emerging trends and patterns in behavioral health outcomes.\nPinpoints geographic disparities and areas of high need.\nInforms the development and evaluation of public health programs and policies.\nFacilitates collaboration among stakeholders across the county.\nEmpowers community partners with accessible and relevant data."
+  },
+  {
+    "objectID": "index.html#key-phases-of-development",
+    "href": "index.html#key-phases-of-development",
+    "title": "Welcome to the BHSS Development Hub",
+    "section": "Key Phases of Development",
+    "text": "Key Phases of Development\nThis website will document our journey through the following key phases:\n\nFoundational Planning & Needs Assessment: Defining the scope, objectives, and identifying existing data sources and gaps.\nData Acquisition & Management: Establishing secure data pipelines, cleaning protocols, and database infrastructure.\nGeospatial Analytics & Visualization: Applying advanced spatial analysis techniques and developing interactive dashboards.\nReporting, Dissemination & Evaluation: Creating regular reports, sharing findings, and ensuring the system’s ongoing utility and sustainability.\n\nWe anticipate integrating interactive Shiny applications to allow for dynamic data exploration and visualization, complementing the static reports and documentation provided here.\nStay tuned for updates as we progress through each phase!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n\nCode\n1 + 1\n\n\n[1] 2"
+  }
+]

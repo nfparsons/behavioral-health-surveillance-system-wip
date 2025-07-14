@@ -1,0 +1,111 @@
+/* Import Google Fonts for Montserrat and Myriad Pro (closest available) */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+/* Define Brand Colors as CSS Variables */
+:root {
+  /* Primary Colors */
+  --mchd-blue: #326195;
+  --mchd-green: #385D2F;
+  --mchd-county-logo-green: #48773C; /* Use sparingly as per guidelines */
+
+  /* Secondary Colors */
+  --mchd-claret: #8C183E;
+  --mchd-copper-rose: #966167;
+  --mchd-deep-saffron: #F79232;
+  --mchd-light-cerulean: #72CCD4;
+
+  /* Neutral Colors (from Dashboard Guide) */
+  --mchd-light-bg: #F6F8F1;
+  --mchd-dark-text: #13263C;
+  --mchd-neutral-grey: #939598;
+
+  /* Common text colors */
+  --text-color: var(--mchd-dark-text);
+  --heading-color: var(--mchd-blue);
+  --link-color: var(--mchd-blue);
+}
+
+/* General Body Styling */
+body {
+  font-family: 'Open Sans', 'Myriad Pro', Arial, sans-serif; /* Open Sans is a good free alternative to Myriad Pro */
+  color: var(--text-color);
+  background-color: var(--mchd-light-bg);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--heading-color);
+  font-weight: 700; /* Bold for headers */
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: var(--mchd-blue) !important; /* Primary blue for the navbar */
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: white !important; /* White text for contrast on blue background */
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: var(--mchd-light-cerulean) !important; /* Light cerulean for hover/active state */
+}
+
+/* Links */
+a {
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--mchd-green); /* Green for link hover */
+  text-decoration: underline;
+}
+
+/* Footer Styling */
+.page-footer {
+  background-color: var(--mchd-dark-text); /* Dark background for footer */
+  color: white;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  font-size: 0.9em;
+}
+
+.page-footer a {
+  color: var(--mchd-light-cerulean);
+}
+
+/* Accessibility - Ensure sufficient contrast for elements */
+/* This is a general rule, specific elements might need more fine-tuning */
+button, input[type="submit"], .btn {
+    background-color: var(--mchd-blue);
+    color: white;
+    border-color: var(--mchd-blue);
+}
+
+button:hover, input[type="submit"]:hover, .btn:hover {
+    background-color: var(--mchd-green);
+    border-color: var(--mchd-green);
+}
+
+/* Adjustments for content areas (e.g., cards, code blocks) */
+.card {
+  border-color: var(--mchd-neutral-grey);
+}
+
+/* Code blocks */
+pre.sourceCode {
+  background-color: #e9ecef; /* Light grey for code background */
+  border-left: 5px solid var(--mchd-green); /* Green accent on code blocks */
+}
+
+/* Table of Contents (TOC) */
+.sidebar-navigation .nav-link {
+  color: var(--text-color);
+}
+
+.sidebar-navigation .nav-link.active {
+  color: var(--mchd-blue);
+  font-weight: bold;
+}/* css styles */

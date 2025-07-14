@@ -1,0 +1,31 @@
+---
+title: "Welcome to the BHSS Development Hub"
+format: html
+---
+
+## Overview
+
+Welcome to the development hub for the county's new **Behavioral Health Surveillance System (BHSS)**. This system is designed to leverage robust data collection, advanced geospatial analytics, and dynamic visualization tools to monitor, understand, and address critical behavioral health challenges within our community.
+
+## Project Vision
+
+To establish a sustainable, actionable, and geographically informed behavioral health surveillance system that:
+
+* Identifies emerging trends and patterns in behavioral health outcomes.
+* Pinpoints geographic disparities and areas of high need.
+* Informs the development and evaluation of public health programs and policies.
+* Facilitates collaboration among stakeholders across the county.
+* Empowers community partners with accessible and relevant data.
+
+## Key Phases of Development
+
+This website will document our journey through the following key phases:
+
+1.  **Foundational Planning & Needs Assessment:** Defining the scope, objectives, and identifying existing data sources and gaps.
+2.  **Data Acquisition & Management:** Establishing secure data pipelines, cleaning protocols, and database infrastructure.
+3.  **Geospatial Analytics & Visualization:** Applying advanced spatial analysis techniques and developing interactive dashboards.
+4.  **Reporting, Dissemination & Evaluation:** Creating regular reports, sharing findings, and ensuring the system's ongoing utility and sustainability.
+
+We anticipate integrating interactive Shiny applications to allow for dynamic data exploration and visualization, complementing the static reports and documentation provided here.
+
+Stay tuned for updates as we progress through each phase!
